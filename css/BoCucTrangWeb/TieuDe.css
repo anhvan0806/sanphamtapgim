@@ -1,0 +1,70 @@
+.Tieu_De {
+		display: inline-block;
+		background: #f1f1f1;
+		width: 100%;
+		border-bottom: 1px #e1e1e1 solid;
+	}
+
+	/* Tieu_De_Trai */
+		.Tieu_De_Trai {
+			float: left;
+			display: table;
+		}
+		.Tieu_De_Trai a {
+			display: table-cell;
+			padding: 5px;
+			text-align: center;
+			font-size: 13px;
+			height: 2em;
+			width: 2em;
+			line-height: 2em;
+			color: gray;
+			background-color: #f1f1f1;
+			transition-duration: .2s;
+		}
+		.Tieu_De_Trai a:hover { color: #fff; }
+		.fa-facebook:hover { background: #3B5998; }
+		.fa-twitter:hover { background: #55ACEE; }
+		.fa-google:hover { background: #dd4b39; }
+		.fa-youtube:hover { background: #bb0000; }
+
+	/* Tieu_De_Phai */
+		.Tieu_De_Phai {
+			float: right;
+		}
+		.Tieu_De_Phai li {
+			display: inline-block;
+			font-size: 1em;
+			color: gray;
+		}
+		.Tieu_De_Phai li a {
+			display: block;
+			color: gray;
+			padding: 8px 15px;
+			transition-duration: .15s;
+		}
+		.Tieu_De_Phai li a:hover {
+			padding-top: 4px; 
+			border-bottom: 4px solid #000;
+			color: #000;
+		}
+		.Tieu_De_Phai li a:hover i {
+			color: Dodgerblue;
+		}
+
+	/* Canh_Tieu_De */
+@media only screen and (max-width: 768px){
+    .Tieu_De_Trai{
+        float: none;
+        width: 50%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+	.Tieu_De {
+        float: none;
+        width: 100%;
+	}
+	.Tieu_De_Phai {
+		display: none;
+	}
+}

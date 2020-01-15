@@ -1,0 +1,32 @@
+body{
+	font-family: Tahoma;
+	font-size: 13px;
+	width: 1300px;
+	margin: 0px auto;
+}
+#Noi_Dung ul{
+	margin: 0px;
+	padding: 0px;
+}
+#Noi_Dung ul li{
+	list-style: none;
+	clear: left;
+	float: left;
+	margin-bottom: 10px;
+}
+#Noi_Dung ul h4{
+	color: #DD0000;
+}
+#Noi_Dung ul li input{
+	border-bottom: 1px solid #C0C0C0;
+	float: right;
+	padding: 10px 20px 0px 20px;
+}
+#Noi_Dung ul li textarea{
+	
+	background: #FFCCFF;
+	padding: 250px 250px 0px 20px;
+}
+#Noi_Dung ul p{
+	margin-left: 100px;
+}
